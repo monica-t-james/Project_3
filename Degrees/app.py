@@ -24,9 +24,10 @@ outputs = [dcc.Graph(id='Q39_EARNINGS'), dcc.Graph(id='Q35_EMPLOYED'),
 app.layout = html.Div(children=[
     html.A(html.Button("HOME", className="btn btn-outline-dark btn-lg"), href='/'),
     html.A(html.Button("GRAPHS", className="btn btn-outline-dark btn-lg"), href='../graphs'),
-    html.A(html.Button("GEO MAPS", className="btn btn-outline-dark btn-lg"), href='../geomap'),
-    html.A(html.Button("DEGREES", className="btn btn-outline-dark btn-lg"), href='../degrees'),
-    html.A(html.Button("MACHINE", className="btn btn-outline-dark btn-lg"), href='../new-page'),
+    html.A(html.Button("GEO MAP", className="btn btn-outline-dark btn-lg"), href='../geomap'),
+    html.A(html.Button("DEGREES AWARDED", className="btn btn-outline-dark btn-lg"), href='../degrees'),
+    html.A(html.Button("MACHINE DRIVEN", className="btn btn-outline-dark btn-lg"), href='../new-page'),
+    html.A(html.Button("NEAS SURVEY", className="btn btn-outline-dark btn-lg"), href='neas_viz'),
     html.A(html.Button("CONCLUSIONS", className="btn btn-outline-dark btn-lg"), href='../conclusions'),
     html.Div([
         html.H1(children=["National Education and Attainment Survey (NEAS)"]), 

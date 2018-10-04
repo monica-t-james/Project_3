@@ -8,12 +8,43 @@
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <br>        
+        <a href="/">
+            <button id="home" class="btn btn-default btn-lg">HOME</button>
+        </a>
+        <a href="graphs">
+            <button id="graphs" class="btn btn-default btn-lg">GRAPHS</button>
+        </a>
+        <a href="geomap">
+            <button id="geomap" class="btn btn-default btn-lg">GEO MAP</button>
+        </a>
+        <a href="degrees">
+            <button id="degrees" class="btn btn-default btn-lg">DEGREES AWARDED</button>
+        </a>
+        <a href="new-page">
+            <button id="new-page" class="btn btn-default btn-lg">MACHINE DRIVEN</button>
+        </a>
+        <a href="neas_viz">
+            <button id="neas_viz" class="btn btn-default btn-lg">NEAS SURVEY</button>
+        </a>
+        <a href="conclusions">
+            <button id="conclusions" class="btn btn-default btn-lg">CONCLUSIONS</button>
+        </a>
+
+        <hr>
+        
+    </div>    
+
     <!-- chart div -->
-    <div id="degrees"></div>
+    <div id="degrees-chart"></div>
     <!-- JS  -->
     <script type="text/javascript" src="../static/js/degree-script.js"></script>
 </body>

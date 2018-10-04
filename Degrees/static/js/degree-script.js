@@ -1,6 +1,6 @@
 // Define SVG area dimensions
 var svgWidth = 1560;
-var svgHeight = 860;
+var svgHeight = 720;
 
 // Define the chart's margins as an object
 var chartMargin = {
@@ -15,7 +15,7 @@ var chartWidth = svgWidth - chartMargin.left - chartMargin.right;
 var chartHeight = svgHeight - chartMargin.top - chartMargin.bottom;
 
 // Select body, append SVG area to it, and set the dimensions
-var svg = d3.select("#degrees")
+var svg = d3.select("#degrees-chart")
     .append("svg")
     .attr("height", svgHeight)
     .attr("width", svgWidth);
