@@ -40,7 +40,8 @@ var data,
 
 d3.select(window).on("keydown", keydowned);
 
-d3.csv("../Resources/BachelorsDegreesAwardedByFieldofStudy_Clean.csv", function(error, _data) {
+var file = "https://raw.githubusercontent.com/monica-t-james/Project_3/master/Degrees/Resources/BachelorsDegreesAwardedByFieldofStudy_Clean.csv"
+d3.csv(file, function(error, _data) {
     if (error) throw error;
 
     title = _data.columns[0];
